@@ -91,7 +91,7 @@
 /*------start pricing section------*/
 .pricing .pricing-item {
   flex-direction: column;
-  gap: 90px;
+  gap: 50px;
 }
 .pricing .pricing-item .pricing-card {
   width: 100%;
