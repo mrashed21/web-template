@@ -65,7 +65,6 @@ nav {
 /*------start menu section------*/
 .menu ul {
   display: flex;
-  justify-content: space-between;
   gap: 5px;
 }
 .menu ul li a {
