@@ -1,0 +1,105 @@
+/*------humbergar-menu------*/
+.menu ul {
+  flex-direction: column;
+  padding-top: 50px;
+  width: 70%;
+  background: #eee;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  z-index: 99;
+  align-items: center;
+}
+
+.open-menu,
+.close-menu {
+  display: block;
+}
+#check:checked ~ ul {
+  right: 0;
+}
+
+/*------start hero section------*/
+.hero h2 {
+  font-size: 35px;
+  padding: 130px 0px 20px 30px;
+}
+.hero .social-link {
+  padding: 40px 0 0px 30px;
+}
+
+.about .flex-card {
+  flex-direction: column;
+}
+
+/*------start about section------*/
+.about .flex-card .card-item {
+  margin-top: 50px;
+}
+.about .flex-card .card-item:first-child {
+  margin-top: 80px;
+}
+
+/*------start design section------*/
+.design {
+  flex-direction: column;
+}
+.design .right-dgn {
+  order: -1;
+  width: 100%;
+}
+.design .left-dgn {
+  padding-top: 50px;
+  width: 100%;
+}
+
+/*------start team section------*/
+.team .team-item {
+  flex-direction: column;
+  gap: 30px;
+}
+.team .team-item .team-card {
+  width: 100%;
+}
+
+/*------start client section------*/
+.client-item {
+  flex-direction: column;
+  text-align: center;
+}
+.client-item .client-card {
+  padding-top: 50px;
+}
+
+/*------start work section------*/
+.work .grid {
+  grid-template-columns: auto;
+}
+
+/*------start skill section------*/
+.skill {
+  flex-direction: column;
+  gap: 30px;
+}
+.skill .left-skill {
+  width: 100%;
+}
+.skill .right-skill {
+  width: 100%;
+}
+/*------start pricing section------*/
+.pricing .pricing-item {
+  flex-direction: column;
+  gap: 90px;
+}
+.pricing .pricing-item .pricing-card {
+  width: 100%;
+}
+.pricing .pricing-item .pro {
+  height: 100vh;
+  transform: translateY(0%);
+}
+.pricing .pricing-item .pro h2 {
+  padding: 50px 0;
+}
