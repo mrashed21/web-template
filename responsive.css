@@ -1,6 +1,7 @@
 /*------humbergar-menu------*/
 .menu ul {
   flex-direction: column;
+  gap: 70px;
   padding-top: 50px;
   width: 70%;
   background: #eee;
